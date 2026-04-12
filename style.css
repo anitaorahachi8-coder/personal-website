@@ -8,10 +8,11 @@ body {
   padding: 5px;
   width: 150px;
 }
-#mainimg.hover{
+#mainimg:hover{
   background-color: yellow;
-  width: 200px;
-  height: 200px;
+  transform: scale(1.1);
+  transition: 0.3s;
+
 }
 #fontstyle {
   font-family: "Fjalla One", sans-serif;
